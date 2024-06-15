@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+        <title>
+            Mike Estela CV 14JUN2024
+        </title>
+    
+        <style>
+            body {
+                color: rgb(117, 121, 146);
+                background-color: rgb(37, 37, 37);
+                /*background-color: #12132e;  --dark blue background theme*/
+                /*background-color: rgba(1, 38, 0, 0.8);*/
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Calibri, sans-serif;
+                background:
+                    linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.3)),
+                    /*url('https://static.vecteezy.com/system/resources/previews/012/979/482/original/modern-high-resolution-dark-geometric-background-with-polygonal-grid-abstract-black-metallic-hexagonal-pattern-simple-illustration-vector.jpg') no-repeat center center;*/
+                    url('https://cdn.openart.ai/stable_diffusion/f612de105abe85c7d43e6c67f2217d932350b781_2000x2000.webp') no-repeat center center;
+                background-size: cover;
+                background-attachment: fixed;
+                              
+            }
+            .name-headerdiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                text-align: center;
+                overflow: hidden;
+                }
+            .descriptor, ul, li {
+                color: rgb(152, 157, 191);
+                text-align: left;
+            }
+            a {
+                color: rgb(117, 121, 146);
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Merriweather', serif;
+            }
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .card-header {
+                width: 80%;
+                border: 0px solid #ccc;
+                border-radius: 0px;
+                overflow: hidden;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            .card-work {
+                width: 300px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                text-align: center;
+                padding: 20px;
+                margin: 10px;
+                background-color: rgb(45, 45, 78);
+                box-shadow: 0 4px 8px rgba(89, 89, 110, 0.1);
+                }
+            .card-skill {
+                width: 300px;
+                border: 0px solid #ccc;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                text-align: center;
+                padding: 20px;
+                margin: 10px;
+                background-color: rgb(45, 45, 78, 0.2);
+                color: #ffffff;
+                /*color: #c4cbff;*/
+                box-shadow: 10px 10px 10px rgba(45, 45, 78, 0.75);
+                }
+            .card-certificate {
+                width: 300px;
+                border: 0px solid #ccc;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                text-align: center;
+                padding: 20px;
+                margin: 10px;
+                background-color: rgb(47, 4, 58, 0.4);
+                color: #c4cbff;
+                box-shadow: 10px 10px 10px rgba(47, 4, 58, 0.75);
+            }
+            
+            .card-body {
+                padding: 20px;
+            }
+            .divider-hor {
+                width: 90%;;
+                border-top: 2px solid rgba(62, 62, 82, 0.75);
+                margin: 20px auto;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                text-align: center;
+                color: #ffffff;
+            }
+            .divider-vert {
+                height: 120px;
+                width: 1px;
+                border-left: 2px solid rgba(62, 62, 82, 0.75);
+                margin-left: 2px;
+                margin-right: 2px;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+            }
+            .excel {
+                content: "";
+                position: relative;
+                /*background-image: url('https://www.onedirectory.com/blog/content/images/size/w960/2023/12/Excel-Employee-Directory-Template-2.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;*/
+                background:
+                    linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,0.4)),
+                    url('https://www.onedirectory.com/blog/content/images/size/w960/2023/12/Excel-Employee-Directory-Template-2.jpg') no-repeat center center;
+                background-size: cover;
+            }
+            .excel-vba {
+                content: "";
+                position: relative;
+                background:
+                    linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,0.4)),
+                    url('https://excel-lence.com/wp-content/uploads/2024/04/vba-excel--870x457.webp') no-repeat center center;
+                background-size: cover;
+            }
+            .powerautomate {
+                background:
+                    linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.4)),
+                    url('https://www.softwebsolutions.com/wp-content/uploads/2023/07/Power-Automate.png') no-repeat center center;
+                background-size: cover;
+            }
+            .powerbi {
+                background:
+                    linear-gradient(90deg, rgba(0,0,0,0.9),rgba(0,0,0,.4)),
+                    url('https://cdn.windowsreport.com/wp-content/uploads/2019/08/Fix-Power-BI-an-error-has-occurred-with-these-steps.jpg') no-repeat center center;
+                background-size: cover;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="name-headerdiv">
+            <div class="card-header">`
+                <h2 style="color: #ccc; text-shadow: 50px 20px 2px #ffffff0f;">REY MICHAEL ESTELA</h2>
+                <p>
+                    📧 reymichael.estela@gmail.com<br>
+                    📞 0977-190-2388<br>
+                    <br>
+                    <a href="https://www.linkedin.com/in/rey-estela-489939150/" target="_blank"><i><u>🔗 LinkedIn Profile</u></i></a>
+                    </p>
+            </div>
+        </div>
+        
+        <div class="divider-hor">
+            <p style="text-shadow: 15px 15px 1px #f6f6f613;">My Skills and Certifications</p>
+        </div>
+
+        <div class="card-container">
+            <div class="card-skill excel">
+                <h4>Advanced Excel</h4>
+                <ul>
+                    <li>Complex Excel Fomulas</li>
+                    <li>Power Query</li>
+                    <li>Advanced Custom Formatting</li>
+                    <li>Advanced Conditional Formatting</li>
+                    <li>Big Data Utilization</li>
+                    <li>Advanced Data manipulation</li>
+                    <li>Customized Excel Printing</li>
+                    <li>Reporting and Data Visualization</li>
+                </ul>
+                                
+            </div>
+            <div class="card-skill excel-vba">
+                <h4>Excel VBA</h4>
+                <ul>
+                    <li>Userforms</li>
+                    <li>Modules</li>
+                    <li>Macros</li>
+                    <li>Conditional Statements</li>
+                    <li>Testing and Debugging</li>
+                    <li>Functions</li>
+                    <li>Error Handling</li>
+                </ul>
+                                
+            </div>
+            <div class="card-skill powerautomate">
+                <h4>Power Automate</h4>
+                <ul>
+                    <li>Instant Cloud Flows</li>
+                    <li>Automated Cloud Flows</li>
+                    <li>Scheduled Cloud Flows</li>
+                    <li>Child Flows</li>
+                    <li>Solutions</li>
+                    <li>Adaptive Cards</li>
+                    <li>Loops</li>
+                    <li>Flow Encapsulation</li>
+                    <li>3rd Party Apps collaboration</li>
+                    <li>Dataverse</li>
+                    <li>Adobe Sign / DocuSign</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-skill powerbi">
+                <h4>PowerBI</h4>
+                <ul>
+                    <li>Data Visualization</li>
+                    <li>Hierarchy Level Visualization</li>
+                    <li>Data ETL and Connection</li>
+                    <li>Finance</li>
+                    <li>Logistics</li>
+                    <li>Telecommunications</li>
+                    <li>Human Resources</li>
+                    <li>Operations</li>
+                </ul>
+                                
+            </div>
+            <div class="card-skill">
+                <h4>Microsoft 365 Environment</h4>
+                <ul>
+                    <li>Power Platform</li>
+                    <li>Microsoft Planner/Project</li>
+                    <li>Sharepoint</li>
+                    <li>Sharepoint Lists</li>
+                    <li>Teams</li>
+                    <li>Office 365</li>
+                    <li>Outlook</li>
+                    <li>Onedrive</li>
+                    <li>Microsoft Forms</li>
+                </ul>
+                                
+            </div>
+            <div class="card-skill">
+                <h4>HTML/CSS</h4>
+                <ul>
+                    <li>Webpages</li>
+                    <li>Customized Email contents</li>
+                    <li>Mobile Browsers</li>
+                    <li>Adaptive Pages</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-certificate">
+                <h4>Certificate of Completion: Excel Essential for Real World</h4>
+                <ul>
+                    <li>March 12, 2022</li>
+                    <li>Udemy</li>
+                    <li>Leila Gharani</li>
+                </ul>
+                                
+            </div>
+            <div class="card-certificate">
+                <h4>Change Management in Agile Environment</h4>
+                <ul>
+                    <li>July 04, 2023</li>
+                    <li>Ariva Academy</li>
+                    <li>JM Matienzo</li>
+                </ul>
+                                
+            </div>
+            <div class="card-certificate">
+                <h4>HTML/CSS</h4>
+                <ul>
+                    <li>Webpages</li>
+                    <li>Customized Email contents</li>
+                    <li>Mobile Browsers</li>
+                    <li>Adaptive Pages</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
