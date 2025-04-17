@@ -20,7 +20,7 @@ body {
             .name-headerdiv {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                /* align-items: center; */
                 flex-wrap: wrap;
                 text-align: center;
                 overflow: hidden;
@@ -42,12 +42,13 @@ body {
                 align-items: center;
             }
             .card-header {
-                width: 80%;
+                /* width: 45%; */
                 border: 0px solid #ccc;
                 border-radius: 0px;
                 overflow: hidden;
                 padding: 0px;
                 margin: 0px;
+                /* display: flex;                */
             }
             
             .card-work {
@@ -95,6 +96,7 @@ body {
             .divider-hor {
                 width: 90%;;
                 border-top: 2px solid rgba(62, 62, 82, 0.75);
+                /* border-top: 2px solid #ccc; */
                 margin: 20px auto;
                 align-items: center;
                 justify-content: center;
