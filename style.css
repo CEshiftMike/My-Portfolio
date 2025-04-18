@@ -84,6 +84,7 @@ body {
                 }
             .card-certificate {
                 width: 300px;
+                height: 180px;
                 border: 0px solid #ccc;
                 border-radius: 8px;
                 overflow: hidden;
@@ -168,7 +169,7 @@ body {
             .azureDatafundamental-explorecoredataconcepts {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
-                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/Microsoft%20Achievements/trophies/Microsoft%20Azure%20Data%20Fundamentals-Explore%20core%20data%20concepts.png') no-repeat right bottom;
+                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/Microsoft-Azure-Data-Fundamentals-Explore-core-data-concepts.png') no-repeat right bottom;
                 background-size: cover;
                 margin: 5px;
                 
@@ -179,24 +180,24 @@ body {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/certificate_excleessentials.png') no-repeat right bottom;
-                background-size: cover;
-                margin: 5px;
+                background-size: contain;
+                margin: 0px;
             }
             .agile-cert {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/Cert_Change_management_in_Agile.png') no-repeat center center;
-                background-size: cover;
+                background-size: contain;
                 }
             .habits7 {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/cert_7habits.png') no-repeat center center;
-                background-size: cover;
+                background-size: contain;
             }
             .modernConst {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/cert_modernConstmanagement.png') no-repeat center center;
-                background-size: cover;
+                background-size: contain;
             }
