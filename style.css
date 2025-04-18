@@ -41,6 +41,12 @@ body {
                 justify-content: center;
                 align-items: center;
             }
+            .card-container .microsoft {
+                background:
+                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/1251337-3840x2160-desktop-4k-microsoft-wallpaper-photo.jpg') no-repeat right bottom;
+                background-size: cover;
+            }
             .card-header {
                 /* width: 45%; */
                 border: 0px solid #ccc;
@@ -166,6 +172,7 @@ body {
                 background-size: cover;
             }
             /* CSS MICROSOFT ACHIEVEMENTS AND CERTIFICATES */
+
             .azureDatafundamental-explorecoredataconcepts {
                 background:
                     linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
