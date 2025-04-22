@@ -27,7 +27,7 @@ body {
                 overflow: hidden;
                 }
             .descriptor, ul, li {
-                color: rgb(152, 157, 191);
+                color: rgb(255, 255, 255);
                 text-align: left;
             }
             a {
@@ -168,6 +168,12 @@ body {
                 background:
                     linear-gradient(90deg, rgba(0,0,0,.9),rgba(0,0,0,.4)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/csshtml.png') no-repeat center center;
+                background-size: cover;
+            }
+            .microsoftGraph {
+                background:
+                    linear-gradient(90deg, rgba(0,0,0,.9),rgba(0,0,0,.4)),
+                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/microsoftgraphLogo.png') no-repeat center center;
                 background-size: cover;
             }
             /* CSS MICROSOFT ACHIEVEMENTS AND CERTIFICATES */
