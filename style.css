@@ -95,7 +95,7 @@ body {
                 text-align: center;
                 padding: 20px;
                 margin: 10px;
-                background-color: rgb(47, 4, 58, 0.5);
+                /* background-color: rgb(47, 4, 58, 0.5); */
                 /* color: #c4cbff; */
                 color: #ffffff;
                 box-shadow: 10px 10px 10px rgba(47, 4, 58, 0.75);
@@ -171,42 +171,72 @@ body {
                 background-size: cover;
             }
             /* CSS MICROSOFT ACHIEVEMENTS AND CERTIFICATES */
-
-            .azureDatafundamental-explorecoredataconcepts {
-                background:
-                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
-                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/Microsoft-Azure-Data-Fundamentals-Explore-core-data-concepts.png') no-repeat right bottom;
-                background-size: cover;
-                margin: 5px;
-                
-            }
-            .getstartedwithMSdataanalytics {
-                background:
-                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
-                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/Get-started-with-Mirosoft-data-analytics.png') no-repeat right bottom;
-                background-size: cover;
-                margin: 5px;
-            }
-            .basics_powerBI-powerAutomate-powerApps {
-                background:
-                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
-                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/learn-the-basics-of-PowerBI_desktop-Power_Automate-and-PowerApps.png') no-repeat right bottom;
-                background-size: cover;
-                margin: 5px;
-            }
-            .createmanagePowerAutomate {
-                background:
-                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
-                    url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/create-and-manage-automated-processes-by-using-power-automate.png') no-repeat right bottom;
-                background-size: cover;
-                margin: 5px;
-            }
+                /* HIGH LEVEL CERTIFICATES */
+                .azureDatafundamental-explorecoredataconcepts {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/Microsoft-Azure-Data-Fundamentals-Explore-core-data-concepts.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                    
+                }
+                .getstartedwithMSdataanalytics {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/Get-started-with-Mirosoft-data-analytics.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .basics_powerBI-powerAutomate-powerApps {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/learn-the-basics-of-PowerBI_desktop-Power_Automate-and-PowerApps.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .createmanagePowerAutomate {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/create-and-manage-automated-processes-by-using-power-automate.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .getStartedwithPowerAutomate {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/get-started-with-power-automate.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .igniteChallengeMSfabric {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/ignite-challenge-ms-fabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .powerautomateDeepintegrationmultipleDataSources {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/power-automate-deep-integration-accross-multiple-data-sources.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .buildflowstomanageUserinfo {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/build-flows-to-manage-user-info.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
             /*CSS OTHER CARD-CERTIFICATES*/
             .excel-cert {
-                background:
-                    linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                background: 
+                linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
                     url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/images/certificate_excleessentials.png') no-repeat left center;
-                background-size: contain;
+                    /* linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)), */
+                    
+                background-size: cover;
                 margin: 0px;
             }
             .agile-cert {
