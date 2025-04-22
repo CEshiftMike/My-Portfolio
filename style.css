@@ -229,6 +229,90 @@ body {
                     background-size: cover;
                     margin: 5px;
                 }
+                .getstartedwithPowerAppCanvasApp {
+                    background:
+                        linear-gradient(45deg,rgb(58, 4, 26, 1),rgb(58, 4, 26, 0.7),rgb(58, 4, 26, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/get-started-with-powerapps-canvasapps.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .buildapprovalwithPowerAutomate {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/build-approval-flows-with-power-automate.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .extenddatainsightswithcopilotinPowerBI {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/extend-data-insights-with-copilot-in-powerbi.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .administermsfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/administer-a-microsoft-fabric-environment.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .createpowerbimodelRelationships {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/create-powerbi-model-relationships.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .getstartedwithRealtimeintelinmsfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/get-started-with-real-time-intelligence-in-ms-fabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .securemsfabricDatawarehouse {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/secure-a-msfabric-dwh.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .loaddataintoMSfabricDWH {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/load-data-into-a-msfabric-dwh.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .getstartedwithDWHinMSfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/get-started-with-DWH-in-MSfabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .ingestdatawithDataflowsGen2inMSfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/ingest-data-with-dataflows-gen2-in-msfabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .usedatafactorypipelinesinMSfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/use-data-factory-pipelines-in-msfabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
+                .useApachesparkinMSfabric {
+                    background:
+                        linear-gradient(45deg,rgb(47, 4, 58, 1),rgb(47, 4, 58, 0.7),rgb(47, 4, 58, 0.5)),
+                        url('https://raw.githubusercontent.com/CEshiftMike/My-Portfolio/main/Microsoft-Achievements/use-apache-spark-in-MSfabric.png') no-repeat right bottom;
+                    background-size: cover;
+                    margin: 5px;
+                }
             /*CSS OTHER CARD-CERTIFICATES*/
             .excel-cert {
                 background: 
